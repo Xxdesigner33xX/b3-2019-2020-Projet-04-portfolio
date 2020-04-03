@@ -1,5 +1,5 @@
 body {
-    background: #white;
+    background: white;
 }
 
 header {
@@ -16,13 +16,27 @@ min-height: 98vh
   justify-content: center;
 }
 
+.title {
+text-align: center;
+background-color: orange;
+border: 6px solid red;
+margin: 10px;
+padding: 10px;
+justify-content: center;
+border-radius: 50px;
+}
+
 .project-feature {
   border: 5px solid grey;
   margin: 1em;
   padding: 1em;
   flex-basis: 320px;
 }
-
+ #victor1 {
+   width: 600px;
+   height: auto;
+   transform: rotate(90deg);
+ }
 
 .photo-feature-container {
   display: flex;
@@ -31,7 +45,7 @@ min-height: 98vh
 }
 
 .photo-feature {
-  border: 2px solid green;
+  border: 2px solid blue ;
   border-radius: 10%;
   margin: 2em;
   padding: 4em;
@@ -54,16 +68,26 @@ z-index: 999;
 
 #main-menu:target {
 left: 0;
-background: rgba(246, 168, 255, 1);
+background: orange;
 }
 
 #main-menu ul a {
   display: block;
-  color : rgba(88, 111, 255, 1);
-  background: rgba(201, 208, 255, 0.5);
+  color : white;
+  background: #FFC529;
+  border: 6px solid #6cbcff;
   padding: 1em;
   margin-bottom: 3px;
+  border-radius: 10px;
+}
 
+.footer{
+  background: rgba(250, 121, 0, 1);
+  position: absolute;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .menu-toggle {
@@ -86,11 +110,16 @@ background: rgba(246, 168, 255, 1);
   font-size: 400px
 }
 
+#contact h3 {
+  font-size : 30px;
+}
 
-
+#contact p {
+font-size : 25px;
+}
 
 #main-menu:target + .backdrop {
-  background: rgba(253, 232, 255, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   position: absolute;
   top: 0;
   left: 0;
