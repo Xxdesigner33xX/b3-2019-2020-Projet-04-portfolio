@@ -44,14 +44,22 @@ border-radius: 50px;
 }
 
 .photo-feature {
-  border: 2px solid blue ;
+  border: 5px solid grey ;
   border-radius: 10%;
   margin: 2em;
   padding: 4em;
   flex-basis: 320px;
 }
+.motivation_title {
+  font-size: 30px;
+  text-align: center;
+}
 
 
+.motivation {
+  font-size: 20px;
+  text-align: center;
+}
 
 #main-menu {
 background: rgba(250, 121, 0, 1);
@@ -67,14 +75,14 @@ z-index: 999;
 
 #main-menu:target {
 left: 0;
-background: orange;
+background: #FFC529;
 }
 
 #main-menu ul a {
   display: block;
-  color : white;
-  background: #FFC529;
-  border: 6px solid #6cbcff;
+  color : black;
+  background: orange;
+  border: 6px solid red;
   padding: 1em;
   margin-bottom: 3px;
   border-radius: 10px;
