@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;1,700&display=swap');
+
 body {
-  font-family: sans-serif;
+  font-family: 'Raleway';
 }
 
 h1 {
+  font-family: 'Raleway';
   font-size: 3em;
   margin-bottom: 1em;
 }
 
 h2 {
-  font-size: 3em;
+  font-family: 'Raleway';
+    font-size: 3em;
   margin-bottom: 0.65em;
 }
  figcaption {
+   font-family: 'Raleway';
  font-size: 0.75em;
 font-style: italic;
 }
